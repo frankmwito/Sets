@@ -4,7 +4,7 @@ n1 = int(input("Enter the maximum number of the first list:"))
 set1 = set()
 
 for i in range(n1):
-    num1 = int(input("Enter the numbers of the first set:"))
+    num1 = int(input(f"Enter the numbers of the first set {i+1}:"))
     set1.add(num1)
 print(f"your first set is: {set1}")
 
@@ -12,7 +12,7 @@ n2 = int(input("Enter the maximum number of the second list:"))
 set2 = set()
 
 for i in range(n2):
-    num2 = int(input("Enter the numbers of the second set:"))
+    num2 = int(input(f"Enter the numbers of the second set {i+1}:"))
     set2.add(num2)
 print(f"your second set is: {set2}")
 
